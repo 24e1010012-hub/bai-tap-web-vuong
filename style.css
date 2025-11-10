@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg,
+              rgba(0, 204, 255, 0.8),
+              rgba(255, 0, 204, 0.8));
+  background-repeat: no-repeat;
+  min-height: 790px;
+}
+
+.login-container {
+  width: 320px;
+  margin: 180px auto;
+  padding: 30px;
+  border: 3px solid transparent;
+  border-radius: 12px;
+  border-image: linear-gradient(135deg,
+                rgba(0, 204, 255, 0.8),
+                rgba(255, 0, 204, 0.8)) 1;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+    
+
+/* Nhóm input + icon */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.input-group input {
+  width: 85%;
+  padding: 10px 10px 10px 35px; /* padding-left để tránh chèn icon */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.login-container button:hover{
+    opacity: 0.5;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 14px;
+  background: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Home page */
+
+body{
+    min-height: 955px;
+}
+
+header {
+  background: #0066cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.book {
+  padding: 10px 20px;
+  border: 1px solid #0066cc;
+  border-radius: 5px;
+}
+
+#logoutBtn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, rgba(0, 204, 255, 0.9), rgba(255, 0, 204, 0.9));
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+#logoutBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.15);
+}
+
+
